@@ -17,6 +17,19 @@
 - 其他组件: 协议框架、定时任务调度器
 - HAL组件: 软件IIC驱动、IIC设备驱动、OLED驱动
 
+## 快速开始
+1. 进入组件实现的声明文件，这里以`singly_list.h`为例
+2. 运行测试案例参与编译:
+    ```c
+    #define OPEN_LIST_SINGLY_TEST 1 // 开启测试案例
+    ```
+3. 运行测试案例:
+    ```c
+    int main(void){
+        list_singly_test_start();
+    }
+    ```
+
 ## 许可证
 Embedded-Lib-O 遵循 [GNU Affero 通用公共许可证第三版](./LICENSE)（AGPLv3）进行授权。
 
@@ -25,3 +38,6 @@ Embedded-Lib-O 遵循 [GNU Affero 通用公共许可证第三版](./LICENSE)（A
 > ***特别提示***
 >
 > Embedded-Lib-O 仅用于学习目的。严禁任何个人或组织将其应用于商业活动、非法行为或其他未经授权的用途。对于违反此规定而导致的一切法律责任和后果，将由违规方自行承担。
+
+## 联系方式
+- 邮箱: rev-roastduck@qq.com

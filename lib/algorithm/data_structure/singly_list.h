@@ -57,7 +57,7 @@ typedef struct __LIST_SINGLY_RRD{
 
 void singly_list_init(LIST_SINGLY_RRD* self,size_t unit_size,bool is_deep_copy);
 
-#define OPEN_LIST_SINGLY_TEST 1
+#define OPEN_LIST_SINGLY_TEST 0
 #if OPEN_LIST_SINGLY_TEST
 void list_singly_test_start(void);
 #endif
