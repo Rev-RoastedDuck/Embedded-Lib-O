@@ -1,0 +1,8 @@
+makefile
+*.o
+start*
+gdb*
+gdb*/
+test/	
+temp*
+build/
